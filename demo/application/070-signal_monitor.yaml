@@ -1,0 +1,12 @@
+Application:
+    Name: Signal Monitor
+    Description: EMG signals
+    Icon: pictures/ST13028_Linux_picto_13.png
+    Type: script
+    Board:
+        List: all
+    Script:
+        Start: echo "Signal Monitor - Monitoring HD-sEMG signals from 64 channels"
+    Action:
+        button_release_event: script_management
+        button_press_event: highlight_eventBox

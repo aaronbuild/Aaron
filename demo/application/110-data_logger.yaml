@@ -1,0 +1,12 @@
+Application:
+    Name: Data Logger
+    Description: record sessions
+    Icon: pictures/logo.png
+    Type: script
+    Board:
+        List: all
+    Script:
+        Start: echo "Data Logger - Recording and analyzing usage patterns"
+    Action:
+        button_release_event: script_management
+        button_press_event: highlight_eventBox

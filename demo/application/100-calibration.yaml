@@ -1,0 +1,12 @@
+Application:
+    Name: Calibration
+    Description: tune system
+    Icon: pictures/ST13340_Info_white.png
+    Type: script
+    Board:
+        List: all
+    Script:
+        Start: echo "Calibration - Fine-tuning prosthetic response and sensitivity"
+    Action:
+        button_release_event: script_management
+        button_press_event: highlight_eventBox

@@ -1,0 +1,12 @@
+Application:
+    Name: Aaron Dashboard
+    Description: personal stats
+    Icon: pictures/ST4439_ST_logo.png
+    Type: python
+    Board:
+        List: all
+    Python:
+        Module: application.aaron_dashboard.dashboard
+    Action:
+        button_release_event: python_start
+        button_press_event: highlight_eventBox

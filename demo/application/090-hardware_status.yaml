@@ -1,0 +1,12 @@
+Application:
+    Name: Hardware Status
+    Description: system health
+    Icon: pictures/ST11249_Module_STM32MP1_alpha.png
+    Type: script
+    Board:
+        List: all
+    Script:
+        Start: echo "Hardware Status - Checking prosthetic system components"
+    Action:
+        button_release_event: script_management
+        button_press_event: highlight_eventBox

@@ -1,0 +1,12 @@
+Application:
+    Name: Gesture Training
+    Description: learn gestures
+    Icon: pictures/ST10261_play_button_medium_grey.png
+    Type: script
+    Board:
+        List: all
+    Script:
+        Start: echo "Gesture Training - Teaching new hand movements and patterns"
+    Action:
+        button_release_event: script_management
+        button_press_event: highlight_eventBox
